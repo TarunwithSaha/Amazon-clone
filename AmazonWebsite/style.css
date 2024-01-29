@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;/*this means that whatever border size or padding an element gets, should be included within its height and width.*/
+
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;/* to position deliver to and india to the center of the height*/
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    
+}
+.logo{
+    background-image: url("Amazon-Logo.webp");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent; /*if border width is same here and under border hover then the content will not move unlike when border width at both the places are equal.*/
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/**box2**/
+.add-first{
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;/*so that deliver starts from right of the icon*/
+   
+
+
+}
+.add-second{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/** box3 **/
+.nav-search {
+    display: flex;/*so that search bar and magnifying glass comes in a line*/
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;/*for curved corners*/
+    
+    }
+.search-select{
+    background-color: #f3f3f3;
+    /*background colour of All option*/
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;/*to remove all the orders that come with the select */
+  
+}
+.search-input{
+    width: 100%;/*so that the search bar occupies all the empty space left*/
+    font-size: 1rem;
+    /*to make the font size large*/
+    border: none;/*to remove any predefined border like we did with search select*/
+    
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/**box4**/
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**box6**/
+.nav-cart i /*this will ensure that the following property will get applied only on the icons inside the parent class i.e. nav-cart (here).*/
+{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**panel**/
+.panel
+{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px ;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+.panel-deals
+{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/** Hero Section**/
+.hero-section{
+    background-image: url("HeroAmazonIMG.jpg");
+    background-size: cover;
+    /* height: 600px; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-msg{
+    /* width: 1500px; */  /*my input*/
+    height: 40px;
+    /* text-align: center; */ /*my input*/
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 95%;
+    /* margin-bottom: 18rem; */  /*my input*/
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+/** box section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f0ccd2;
+}
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    /* width: 23%;*/ /*real input*/
+    width: 22%;/*my input*/
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+/* .box1{
+    height: 420px;
+    padding: 20px 0px 15px;
+} *//*my input*/
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.box-content{
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185 ;
+}
+/* Footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 19px;
+    width: 1390px;
+    font-size: 0.85rem;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: #DDDDDD;
+    height: 300px;
+    display:flex ;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{    
+    display: block;
+    font-size: .85rem;
+    margin-top: 10px;
+    color: #999999;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.2px solid white;
+    height: 68px;
+    width: 1390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px 94.5px; */
+}
+.logo{
+    background-color: #222f3d;
+    background-image: url("Amazon-Logo.webp");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #131a22;
+    color: #DDDDDD;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    font-size: 12px;
+    text-align: center;
+    width: 1390px;
+    height: 36px;
+    padding: 10px 0px 30px;
+}
+.pages a{
+    height: 15.03px;
+    padding: 0px 7.2px;
+}
+.copyright{
+    height: 18px;
+    /* width: 269.6px; */
+    padding: 0px 7.2px;
+    display: flex;
+    justify-content: center;
+}
